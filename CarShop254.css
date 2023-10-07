@@ -146,6 +146,10 @@ body{
 .main .posts-div img{
     width:300px;
     padding: 5px;
+    transition: all 0.3s;
+}
+.main .posts-div img:hover{
+    transform: scale(1.06);
 }
 
 /* footer */
