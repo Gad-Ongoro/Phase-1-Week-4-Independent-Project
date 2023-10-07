@@ -152,6 +152,46 @@ body{
     transform: scale(1.06);
 }
 
+div.user-info{
+    color: navy;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.personal-details form{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.personal-details input{
+    width: 400px;
+    height: 35px;
+}
+div.personal-details form label{
+    font-weight: 600;
+}
+input[type="submit"]{
+    color: rgb(0, 9, 61);
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(47, 130, 255, 0.7);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+
+    transition: all 0.8s;
+}
+input[type="submit"]:hover{
+    box-shadow: 600px 0 0 0 rgb(47, 130, 255) inset;
+    color: white;
+}
+
 /* footer */
 footer{
     display: flex;
