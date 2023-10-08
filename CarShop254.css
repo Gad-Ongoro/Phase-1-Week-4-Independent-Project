@@ -36,6 +36,11 @@ body{
 .header h1{
     margin-left: 10px;
 }
+.light-dark img{
+    cursor: pointer;
+    width: 30px;
+    transform: rotate(180deg);
+}
 .header .nav-div{
     width: 50%;
     margin-right: 50px;
@@ -172,15 +177,16 @@ div.personal-details form{
 .personal-details input{
     width: 400px;
     height: 35px;
+    padding: 10px;
 }
 div.personal-details form label{
     font-weight: 600;
 }
 input[type="submit"]{
-    color: rgb(0, 9, 61);
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 2px;
-    background-color: rgba(47, 130, 255, 0.7);
+    background-color: rgb(29, 144, 61);
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
@@ -188,7 +194,7 @@ input[type="submit"]{
     transition: all 0.8s;
 }
 input[type="submit"]:hover{
-    box-shadow: 600px 0 0 0 rgb(47, 130, 255) inset;
+    box-shadow: 500px 0 0 0 rgb(10, 170, 100) inset;
     color: white;
 }
 
