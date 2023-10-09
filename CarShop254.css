@@ -212,8 +212,10 @@ div.personal-details form{
     padding: 10px;
     border-radius: 5px;
     border: none;
+    transition: all 0.3s;
 }
 .personal-details input:focus{
+    transform: scale(1.04);
     outline-color: navy;
 }
 div.personal-details form label{
@@ -234,12 +236,12 @@ div.personal-details img.visa-mastercard{
 }
 div.personal-details img.bgimg{
     position: absolute;
-    top: 330px;
+    top: 325px;
     left: 150px;
     z-index: -10;
 
-    width: 350px;
-    height: 350px;
+    width: 355px;
+    height: 355px;
     object-fit: contain;
     border-radius: 50%;
 }
