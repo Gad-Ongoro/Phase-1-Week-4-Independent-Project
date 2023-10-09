@@ -178,9 +178,24 @@ div.personal-details form{
     width: 400px;
     height: 35px;
     padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.personal-details input:focus{
+    outline-color: navy;
 }
 div.personal-details form label{
     font-weight: 600;
+}
+div.payment-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.personal-details img{
+    width: 440px;
+    border-radius: 5px;
 }
 input[type="submit"]{
     color: rgb(255, 255, 255);
