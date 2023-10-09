@@ -148,15 +148,22 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
+div.eachCar{
+    border: 1.3px solid rgb(30, 130, 255);
+    border-radius: 10px;
+    margin: 5px;
+    transition: all 0.4s;
+}
+div.eachCar:hover{
+    transform: scale(1.025);
+}
 .main .posts-div img{
-    width:300px;
+    width: 290px;
     height: 203.33px;
     object-fit: cover;
-    padding: 5px;
-    transition: all 0.3s;
 }
-.main .posts-div img:hover{
-    transform: scale(1.06);
+button a.order-btn-link{
+    text-decoration: none;
 }
 
 div.user-info{
