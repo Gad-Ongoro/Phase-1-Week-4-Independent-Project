@@ -150,6 +150,8 @@ body{
 }
 .main .posts-div img{
     width:300px;
+    height: 203.33px;
+    object-fit: cover;
     padding: 5px;
     transition: all 0.3s;
 }
@@ -255,3 +257,6 @@ footer{
         max-width: 40vw;
     }
 }
+
+/* selector finder */
+/* img */

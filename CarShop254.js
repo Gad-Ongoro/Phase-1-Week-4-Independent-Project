@@ -3,8 +3,9 @@ let body = document.querySelector("body");
 let light = document.querySelector("img.light");
 let dark = document.querySelector("img.dark");
 let userInfo = document.querySelector("div.user-info");
+let userInfoInput = document.querySelectorAll("div#user-info input");
 
-console.log(userInfo);
+console.log(userInfoInput);
 
 //console.log(dark);
 
@@ -21,10 +22,17 @@ function lightDarkMode () {
     light.addEventListener("click", function(e) {
         body.style.backgroundColor = "rgba(255, 255, 255)";
         userInfo.style.color = "navy";
+        userInfoInput.forEach(function(userInput){
+            userInput.style.border = "2px solid rgb(222, 111, 250, 0.6)";
+        });
     })
     dark.addEventListener("click", function(e) {
         body.style.backgroundColor = "rgba(0, 20, 100)";
         userInfo.style.color = "white";
+
+        userInfoInput.forEach(function(userInput){
+            userInput.style.border = "none";
+        });
     })
 };
 lightDarkMode();
