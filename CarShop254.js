@@ -6,7 +6,7 @@ let userInfo = document.querySelector("div.user-info");
 let userInfoInput = document.querySelectorAll("div#user-info input");
 let carInfoP = document.querySelectorAll("div.eachCar p");
 
-console.log(userInfoInput);
+//console.log(userInfoInput);
 
 //console.log(dark);
 
@@ -46,3 +46,13 @@ function lightDarkMode () {
     })
 };
 lightDarkMode();
+
+//fetch 
+function fetchDB() {
+    fetch("https://carshop-edbk.onrender.com/cars")
+    .then(res => res.json())
+    .then(function(data){
+        console.log(data)
+    })
+};
+fetchDB();
