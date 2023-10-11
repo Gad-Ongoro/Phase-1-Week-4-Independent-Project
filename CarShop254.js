@@ -5,10 +5,9 @@ let dark = document.querySelector("img.dark");
 let userInfo = document.querySelector("div.user-info");
 let userInfoInput = document.querySelectorAll("div#user-info input");
 let carInfoP = document.querySelectorAll("div.eachCar p");
+let mainPostPage = document.querySelector("div.posts-div");
 
-//console.log(userInfoInput);
-
-//console.log(dark);
+console.log(mainPostPage);
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -52,7 +51,7 @@ function fetchDB() {
     fetch("https://carshop-edbk.onrender.com/cars")
     .then(res => res.json())
     .then(function(data){
-        console.log(data.kia)
+        console.log(data)
     })
 };
 fetchDB();
