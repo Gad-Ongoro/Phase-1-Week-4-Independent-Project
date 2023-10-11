@@ -52,7 +52,7 @@ function fetchDB() {
     fetch("https://carshop-edbk.onrender.com/cars")
     .then(res => res.json())
     .then(function(data){
-        console.log(data)
+        console.log(data.kia)
     })
 };
 fetchDB();
