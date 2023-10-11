@@ -157,6 +157,15 @@ div.eachCar{
 div.eachCar:hover{
     transform: scale(1.025);
 }
+div.eachCar div.car-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.eachCar div.car-info p{
+    margin: 10px;
+}
 .main .posts-div img{
     width: 290px;
     height: 203.33px;
@@ -306,4 +315,4 @@ footer{
 
 
 /* selector finder */
-/* user-info */
+/* eachCar */
