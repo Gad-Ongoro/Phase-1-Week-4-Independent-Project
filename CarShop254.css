@@ -221,9 +221,20 @@ div.user-info{
 div.user-info h2{
     backdrop-filter: blur(5px);
 }
-/*div.personal-details{
-    
-}*/
+div.order-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.order-details h3{
+    margin-bottom: 0;
+    font-size: 25px;
+}
+div.order-details p{
+    margin: 5px;
+    font-size: 20px;
+}
 div.personal-details form{
     display: flex;
     flex-direction: column;
@@ -288,10 +299,6 @@ input[type="submit"]:hover{
 
 /* footer */
 footer{
-    /* background-image: url("https://i.pinimg.com/564x/d9/6d/cf/d96dcf68bb82e8e82b9e72ca5fa305d3.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; */
     position: relative;
     display: flex;
     justify-content: center;
@@ -352,4 +359,4 @@ footer img#footer-backG{
 
 
 /* selector finder */
-/* eachCar */
+/* user-info */
