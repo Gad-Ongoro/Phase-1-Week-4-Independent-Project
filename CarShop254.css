@@ -107,15 +107,18 @@ body{
 }
 .filters button.show-all{
     cursor: pointer;
-    background-color: rgba(0, 150, 255, 0.8);
+    background-color: rgba(0, 150, 255);
     border: none;
     letter-spacing: 3px;
-    padding: 7px 0;
-    color: rgb(0, 60, 120);
+    padding: 5px 0;
+    color: white;
     text-transform: uppercase;
+    position: sticky;
+    top: 28.67px;
+
+    transition: all 0.3s;
 }
 .filters button.show-all:hover{
-    color: white;
     font-weight: 600;
 }
 .filters ul{
@@ -328,4 +331,4 @@ footer{
 
 
 /* selector finder */
-/* h4 */
+/* eachCar */

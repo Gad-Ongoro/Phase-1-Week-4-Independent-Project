@@ -4,10 +4,12 @@ let light = document.querySelector("img.light");
 let dark = document.querySelector("img.dark");
 let userInfo = document.querySelector("div.user-info");
 let userInfoInput = document.querySelectorAll("div#user-info input");
+let eachCarDiv = document.querySelectorAll("div.eachCar");
 let carInfoP = document.querySelectorAll("div.eachCar p");
 let mainPostPage = document.querySelector("div.posts-div");
+let showAllBtn = document.querySelector("button.show-all");
 
-console.log(mainPostPage);
+//console.log(eachCarDiv);
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -51,7 +53,44 @@ function fetchDB() {
     fetch("https://carshop-edbk.onrender.com/cars")
     .then(res => res.json())
     .then(function(data){
-        console.log(data)
+    //console.log(data)
+
+        data.forEach(function(car){
+            showAllBtn.addEventListener("click", function(e){
+                let postDiv = document.createElement("div.each-car");
+                postDiv.style.border = "1.3px solid rgb(30, 130, 255)";
+                postDiv.style.borderRadius = "10px";
+                postDiv.style.margin = "5px";
+                postDiv.style.transition = "all 0.4s";
+
+                postDiv.addEventListener("mouseenter", e => {
+                    postDiv.style.transform = "scale(1.025)";
+                    //console.log(e);
+                })
+                postDiv.addEventListener("mouseleave", e => {
+                    postDiv.style.transform = "scale(1)";
+                    //console.log(e);
+                })
+                postDiv.innerHTML = `
+                    <img src="${car.image}">
+                    <div style="
+                            margin:10px;
+                            ">
+                        <p class="c-model"> ${car.model} </p>
+                        <p class="price-kes"> Ksh. <span> ${car.price} </span> </p>
+                        <p class="c-year"> ${car.year} </p>
+                        <button type="button" class="order-btn"> <a href="#user-info" class="order-btn-link"> Order Now </a></button>
+                    </div>
+                `;
+                mainPostPage.appendChild(postDiv);
+
+                eachCarDiv.forEach(post => {
+                    post.style.display = "none";
+                });
+            })
+        });
     })
 };
 fetchDB();
+
+//eachCar
