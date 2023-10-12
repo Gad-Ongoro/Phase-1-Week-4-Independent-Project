@@ -105,6 +105,19 @@ body{
     top: 0;
     z-index: 1;
 }
+.filters button.show-all{
+    cursor: pointer;
+    background-color: rgba(0, 150, 255, 0.8);
+    border: none;
+    letter-spacing: 3px;
+    padding: 7px 0;
+    color: rgb(0, 60, 120);
+    text-transform: uppercase;
+}
+.filters button.show-all:hover{
+    color: white;
+    font-weight: 600;
+}
 .filters ul{
     display:flex;
     flex-direction:column;
@@ -315,4 +328,4 @@ footer{
 
 
 /* selector finder */
-/* eachCar */
+/* h4 */
