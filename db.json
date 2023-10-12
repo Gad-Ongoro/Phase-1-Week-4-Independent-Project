@@ -1,0 +1,167 @@
+{
+    "cars": [
+        {
+            "id" : 1,
+            "image" : "https://kaba.co.ke/storage/files/ke/15764/thumb-816x460-72decedb44ccbec8e7436f8da4f97d70.jpeg",
+            "price" : "4,500,000",
+            "model" : "Lexus",
+            "year" : "2018"
+        },
+        {
+            "id" : 2,
+            "image" : "https://kaba.co.ke/storage/files/ke/14916/thumb-816x460-94f6dfecc159ab74c57fed7c929a7078.jpg",
+            "price" : "6,500,000",
+            "model" : "BMW",
+            "year" : "2019"
+        },
+        {
+            "id" : 3,
+            "image" : "https://kaba.co.ke/storage/files/ke/14983/thumb-816x460-f9cb0c97c773b805e9397bf66d0200ba.jpg",
+            "price" : "8,200,000",
+            "model" : "Toyota",
+            "year" : "2017"
+        },
+        {
+            "id" : 4,
+            "image" : "https://kaba.co.ke/storage/files/ke/12870/thumb-816x460-9d87b5daf4e933a48d5f5599080972c7.jpg",
+            "price" : "3,500,000",
+            "model" : "Mazda",
+            "year" : "2018"
+        },
+        {
+            "id" : 5,
+            "image" : "https://pictures-kenya.jijistatic.com/52167974_MTYwMC0xMDY4LTgzNGEyYjQwNDg.webp",
+            "price" : "6,400,000",
+            "model" : "Chevrolet",
+            "year" : "2012"
+        },
+        {
+            "id" : 6,
+            "image" : "https://pictures-kenya.jijistatic.com/50916324_MTYwMC0xMDY4LTU1NTE2ODM0ZjQ.webp",
+            "price" : "2,800,000",
+            "model" : "Audi",
+            "year" : "2014"
+        },
+        {
+            "id" : 7,
+            "image" : "https://kaba.co.ke/storage/files/ke/15840/thumb-816x460-e872cbdb641c55d7c29ba08dd2b71bf6.jpg",
+            "price" : "2,150,000",
+            "model" : "Subaru",
+            "year" : "2016"
+        },
+        {
+            "id" : 8,
+            "image" : "https://kaba.co.ke/storage/files/ke/14921/thumb-816x460-7332bfcd8a6291e4a3ec57518d306be0.jpg",
+            "price" : "5,600,000",
+            "model" : "Porche",
+            "year" : "2017"
+        },
+        {
+            "id" : 9,
+            "image" : "https://kaba.co.ke/storage/files/ke/18154/thumb-816x460-c4aa24378b447d12017dbb7b1484ea25.jpeg",
+            "price" : "4,200,000",
+            "model" : "Mercedes-Benz",
+            "year" : "2018"
+        },
+        {
+            "id" : 10,
+            "image" : "https://kaba.co.ke/storage/files/ke/18315/thumb-816x460-a63acf4fd3eb3d0d81215c045f35a9e7.jpg",
+            "price" : "4,850,000",
+            "model" : "Range Rover",
+            "year" : "2016"
+        },
+        {
+            "id" : 11,
+            "image" : "https://pictures-kenya.jijistatic.com/42757354_MTIwMC0xNTk5LWQ4MjFlYTZhNTktMQ.webp",
+            "price" : "5,200,000",
+            "model" : "Kia",
+            "year" : "2020"
+        },
+        {
+            "id" : 12,
+            "image" : "https://kaba.co.ke/storage/files/ke/18320/thumb-816x460-de31778dd2139b16176d3233ee6a76be.jpg",
+            "price" : "3,500,000",
+            "model" : "Mitsubishi",
+            "year" : "2016"
+        },
+        {
+            "id" : 13,
+            "image" : "https://pictures-kenya.jijistatic.com/55710654_MTA4MC03MTktZGEwMWJkNGNhZQ.webp",
+            "price" : "2,000,000",
+            "model" : "Mini",
+            "year" : "2018"
+        },
+        {
+            "id" : 14,
+            "image" : "https://pictures-kenya.jijistatic.com/54782429_MTYwMC0xMjAwLTc5MTk5MjA3MjU.webp",
+            "price" : "1,800,000",
+            "model" : "Volkswagen",
+            "year" : "2016"
+        },
+        {
+            "id" : 15,
+            "image" : "https://pictures-kenya.jijistatic.com/51349230_MTUwMC0xMTI1LTUyNzg5N2JkMjk.webp",
+            "price" : "3,600,000",
+            "model" : "Jaguar",
+            "year" : "2015"
+        },
+        {
+            "id" : 16,
+            "image" : "https://pictures-kenya.jijistatic.com/48837597_MTUwMC0xMTI1LTMxNGY5OTAzYmI.webp",
+            "price" : "3,400,000",
+            "model" : "Peugeot",
+            "year" : "2016"
+        },
+        {
+            "id" : 17,
+            "image" : "https://pictures-kenya.jijistatic.com/55980553_MTUwMC0xMTAwLTM5YzI5YmYyMzc.webp",
+            "price" : "5,400,000",
+            "model" : "Jeep",
+            "year" : "2017"
+        },
+        {
+            "id" : 18,
+            "image" : "https://pictures-kenya.jijistatic.com/53603997_MTYwMC0xMDY2LTJiOGRlZjJlN2E.webp",
+            "price" : "2,200,000",
+            "model" : "Nissan",
+            "year" : "2015"
+        },
+        {
+            "id" : 19,
+            "image" : "https://pictures-kenya.jijistatic.com/55600363_MTYwMC0xMjAwLTM0MGM0NTNkY2Y.webp",
+            "price" : "4,200,000",
+            "model" : "Honda",
+            "year" : "2017"
+        },
+        {
+            "id" : 20,
+            "image" : "https://pictures-kenya.jijistatic.com/49113848_MTYwMC0xMDY3LTM4YTU5ZTQwNTk.webp",
+            "price" : "5,800,000",
+            "model" : "Ford",
+            "year" : "2013"
+        },
+        {
+            "id" : 21,
+            "image" : "https://kaba.co.ke/storage/files/ke/3445/thumb-816x460-whatsapp-image-2021-03-01-at-21-00-20.png",
+            "price" : "2,200,000",
+            "model" : "Suzuki",
+            "year" : "2014"
+        },
+        {
+            "id" : 22,
+            "image" : "https://www.topgear.com/sites/default/files/2022/04/1%20Isuzu%20D-Max%20Arctic%20Trucks%20AT35.jpg",
+            "price" : "8,600,000",
+            "model" : "Isuzu",
+            "year" : "2015"
+        },
+        {
+            "id" : 23,
+            "image" : "https://i.ytimg.com/vi/w3GGfihj5x8/sddefault.jpg",
+            "price" : "9,000,000",
+            "model" : "Volvo",
+            "year" : "2020"
+        }
+    ],
+
+    "user": []
+}

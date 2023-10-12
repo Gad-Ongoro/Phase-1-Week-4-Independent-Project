@@ -9,15 +9,23 @@ let carInfoP = document.querySelectorAll("div.eachCar p");
 let mainPostPage = document.querySelector("div.posts-div");
 let showAllBtn = document.querySelector("button.show-all");
 
-//console.log(eachCarDiv);
+//Order Details
+let fullNameInput = document.querySelector("input#full-name");
+let emailInput = document.querySelector("input#mail");
+let fullNameP = document.querySelector("p#full-name");
+let carOrdered = document.querySelector("p#car-ordered");
+let emailP = document.querySelector("p#email");
+
+console.log(emailInput);
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
-    if (window.confirm("Are you sure you want to place an order?")){
-        alert("Order placed successfully");
-    } else {
-        alert("Order cancelled");
-    };
+    // if (window.confirm("Are you sure you want to place an order?")){
+    //     alert("Order placed successfully");
+    // } else {
+    //     alert("Order cancelled");
+    // };
+    buyerInfoHandler();
 });
 
 function lightDarkMode () {
@@ -48,7 +56,7 @@ function lightDarkMode () {
 };
 lightDarkMode();
 
-//fetch 
+// car fetch 
 function fetchDB() {
     fetch("https://carshop-edbk.onrender.com/cars")
     .then(res => res.json())
@@ -93,4 +101,28 @@ function fetchDB() {
 };
 fetchDB();
 
-//eachCar
+// user details and oder handler
+function buyerInfoHandler(){
+    let customerDetails = {
+        full_Name: fullNameInput.value,
+        email_account: emailInput.value
+    };
+    console.log(customerDetails);
+    fetch("https://carshop-edbk.onrender.com/user"//, {
+        //method: "POST",
+        //headers: {
+            //"Content-Type" : "application/json"
+        //},
+        //body: JSON.stringify(customerDetails)
+    //}
+    )
+    .then(res => res.json())
+    .then(function(data){
+        console.log(data)
+        // data.forEach(function(buyer){
+        //     fullNameP.innerHTML = buyer.full_Name;
+        //     emailInput.innerHTML = buyer.email_account;
+        // });
+    }
+    );
+};

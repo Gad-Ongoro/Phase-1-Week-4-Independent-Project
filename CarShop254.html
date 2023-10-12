@@ -236,16 +236,11 @@
 
                     <div class="personal-details">
                         <img src="https://i.pinimg.com/564x/8d/2d/de/8d2ddec014390b4c118d91b46ccb6628.jpg" alt="bgimg" class="bgimg">
-                        <form action="#">
+                        <form action="#" autocomplete="off">
                             <div>
-                                <label for="f-name">First Name:</label>
-                                <input type="text" name="First-Name" id="f-name" placeholder="John">
+                                <label for="full-name">Name:</label>
+                                <input type="text" name="Full-Name" id="full-name" placeholder="John Doe">
                             </div> <br>
-
-                            <div>
-                                <label for="l-name">Last Name:</label>
-                                <input type="text" name="Last-Name" id="l-name" placeholder="Doe"> <br> <br>
-                            </div>
 
                             <div>
                                 <label for="mail">Email:</label>
@@ -256,11 +251,11 @@
                                 <h3>Payment Details</h3>
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-C8ZX3T4OQlOlId22UDw9WZ2ueNTwE6CV8NJA6aqVtxKfYQrm_N3bUQ8_teBiv7l3oA&usqp=CAU" alt="Visa and MasterCard" class="visa-mastercard"> <br>
                                 
-                                <input type="text" placeholder="Card Holder Name"> <br> <br>
-                                <input type="number" name="" id="card-num" placeholder="Card Number"> <br> <br>
-                                <input type="text" placeholder="Expiry (MM/YY)"> <br> <br>
-                                <input type="text" placeholder="CVC/CVV"> <br> <br>
-                                <input type="text" placeholder="Postal Code">
+                                <input type="text" name="card-name" placeholder="Card Holder Name"> <br> <br>
+                                <input type="number" name="card-number" id="card-num" placeholder="Card Number"> <br> <br>
+                                <input type="text" name="card-expiry" placeholder="Expiry (MM/YY)"> <br> <br>
+                                <input type="text" name="cvv" placeholder="CVC/CVV"> <br> <br>
+                                <input type="text" name="postal-code" placeholder="Postal Code">
                             </div> 
                             
                             <br>
@@ -275,7 +270,6 @@
                     <h3>Order Details</h3>
                     <p id="full-name">Full Name</p>
                     <p id="car-ordered">Car Ordered</p>
-                    <p id="postal-code">Postal Code</p>
                     <p id="email">Email</p>
                 </div>
 
