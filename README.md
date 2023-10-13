@@ -3,15 +3,15 @@
 ## Project link on GitHub Pages
 https://gad-ongoro.github.io/Phase-1-Week-4-Independent-Project/
 
+## Public API Used
+### https://carshop-edbk.onrender.com/
+
 ## Project Description
 ### Application name ~ Car Shop 254
 ### Overview ~ An online shopping web application for automotives
 
 ## Author
 ~ Gad-Ongoro
-
-## Public API Used
-### https://carshop-edbk.onrender.com/
 
 ## Project user stories 
 #### As a user I can: 
