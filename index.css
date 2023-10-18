@@ -3,7 +3,7 @@
     font-family: Arial, sans-serif;
 }
 body{
-    background-color: rgba(171, 171, 224, 0.5);
+    background-color: rgba(171, 171, 224, 0.2);
     margin:0;
 }
 ::-webkit-scrollbar{
