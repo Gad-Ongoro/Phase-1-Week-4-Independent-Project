@@ -348,15 +348,16 @@ footer img#footer-backG{
         margin-left: 0;
     }
     .posts-div{
+        justify-content: center;
         margin:auto;
     }
 }
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
     .main .posts-div img{
         max-width: 40vw;
     }
-}
+} */
 
 
 /* selector finder */
-/* user-info */
+/* posts-div */
